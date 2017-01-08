@@ -1,0 +1,86 @@
+html, body {
+	width: 100%; height: 100%;
+	/*注释：去除浏览器默认的边距*/ 
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	outline: none;
+}
+
+button, input[type=button] {
+	border: none;
+	border-radius: 2px;
+}
+
+#main {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+}
+
+.login-btn {
+	width: 52px;
+	height: 30px;
+	background: #4285f4;
+	color: #fff;
+	position: absolute;
+	right: 30px;
+	top: 15px;
+}
+
+.login-btn:active {
+	background: #3c78dc;
+}
+
+input.submit-btn {
+	background: #f2f2f2; 
+	color: #757575;
+	min-width: 54px;
+	height: 36px;
+    padding: 0 16px;
+    text-align: center;
+	border: 1px solid #f2f2f2;
+
+}
+
+input.submit-btn:hover {
+	background: #f8f8f8;
+	color: #222;
+	border: 1px solid #c6c6c6;
+}
+
+.submit-btn-container {
+	margin-top: 10px;
+}
+
+.search-keywords {
+	border: 1px solid #c6c6c6;
+	padding: 5px 15px;
+	width: 470px;
+	margin: 0 auto;
+}
+
+.search-keywords > * {
+	vertical-align: middle;
+}
+
+.input-keywords {
+	width: 400px;
+	height: 34px;
+	border: none;
+	outline: none;
+}
+
+.audio-keywords {
+	width: 24px;
+}
+
+.audio-keywords-container {
+	width: 40px;
+	height: 100%;
+	display: inline-block;
+}
